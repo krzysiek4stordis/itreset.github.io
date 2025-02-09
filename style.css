@@ -1,13 +1,13 @@
 :root {
-    --main-fg-color: blue !important; /* Zmienia domyślny kolor tekstu */
+    --main-fg-color: rgb(0, 162, 255) !important; /* Zmienia domyślny kolor tekstu */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: blue !important; /* Zmienia kolor nagłówków */
+    color: rgb(0, 162, 255) !important; /* Zmienia kolor nagłówków */
 }
 
 header h1 {
-    color: blue !important; /* Zmienia kolor tytułu strony */
+    color: rgb(0, 162, 255) !important; /* Zmienia kolor tytułu strony */
 }
 
 }
