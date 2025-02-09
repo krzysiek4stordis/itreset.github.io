@@ -1,3 +1,9 @@
+/* Nadpisujemy domyślne style motywu Hacker */
 :root {
-    --main-fg-color: blue !important; /* Zmienia kolor czcionki na niebieski */
+    --main-fg-color: blue !important; /* Zmienia domyślny kolor tekstu na niebieski */
+}
+
+/* Dodatkowo wymuszamy kolor dla całego tekstu */
+body, h1, h2, h3, h4, h5, h6, p, a, span, li {
+    color: blue !important;
 }
