@@ -1,4 +1,3 @@
----
-title: itreset.github.io
----
+<link rel="stylesheet" type="text/css" href="style.css">
+
 
