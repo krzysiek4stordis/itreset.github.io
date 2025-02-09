@@ -1,11 +1,15 @@
-/* Nadpisujemy domyślne style motywu Hacker */
 :root {
-    --main-fg-color: blue !important; /* Zmienia domyślny kolor tekstu na niebieski */
+    --main-fg-color: blue !important; /* Zmienia domyślny kolor tekstu */
 }
 
-/* Dodatkowo wymuszamy kolor dla całego tekstu */
-body, h1, h2, h3, h4, h5, h6, p, a, span, li {
-    color: blue !important;
+h1, h2, h3, h4, h5, h6 {
+    color: blue !important; /* Zmienia kolor nagłówków */
+}
+
+header h1 {
+    color: blue !important; /* Zmienia kolor tytułu strony */
+}
+
 }
 .github-button {
     display: none !important;
