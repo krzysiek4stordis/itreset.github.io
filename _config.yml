@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme
 title: itreset.github.io
 description: here we reset IT future ...
+include: ["style.css"]
